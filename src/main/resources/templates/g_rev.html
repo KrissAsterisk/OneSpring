@@ -1,0 +1,37 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}"/>
+    <meta charset="utf-8"/>
+
+    <title> Welcome ! </title>
+</head>
+<body bgcolor="#BBF939">
+<header>
+    <h2>YEET</h2>
+</header>
+<nav>
+    <ul>
+        <li><a th:href="@{/}">Lobby</a>
+        <li><a th:href="@{/rules}">Rules</a></li>
+        <li><a th:href="@{/discord}">Discord Server</a></li>
+        <li><a th:href="@{/ytb}">My Christian YouTube Channel<img th:src="@{/abc.png}" height="20" width="20"/><img th:src="@{/abc.png}" height="20" width="20"/></a></li>
+    </ul>
+</nav>
+<article>
+    <h3>Phoenix Wright</h3>
+    <pre><h3>This game consists of you, the protagonist, Phoenix Wright, being a lawyer.</h3></pre>
+    <pre><h3>Your friend, Larry, motivated you and was one of the many reasons why you became a lawyer.</h3></pre>
+    <pre><h3>He ended up being one of the suspects and you have to defend him.
+That's basically the tutorial of the game, where Mia Fey, your Chief, teaches you how to object, cross-examine et cetera.</h3></pre>
+    <br>
+    <img th:src="@{/PW.jpg}" length=1000 width=1000>
+    <br>
+    <P>Want to know more about this game?
+    <P>
+    <P>Click <a th:href="@{/grev2}">here</a>!
+    <P>
+
+</article>
+</body>
+</html>

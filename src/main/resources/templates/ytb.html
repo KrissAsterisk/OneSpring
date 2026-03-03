@@ -1,0 +1,32 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}"/>
+    <meta charset="utf-8"/>
+
+    <title> Welcome ! </title>
+</head>
+<body bgcolor="#BBF939">
+<header>
+    <h2>YEET</h2>
+</header>
+<nav>
+    <ul>
+        <li><a th:href="@{/}">Lobby</a></li>
+        <li><a th:href="@{/discord}">Discord Server</a></li>
+        <li><a th:href="@{/gmail}">My Gmail</a></li>
+        <li><a th:href="@{/rules}">Rules</a></li>
+        <li><a th:href="@{/g_rev}">Game Review</a></li>
+    </ul>
+</nav>
+<article>
+    <h1>HEY!</h1>
+    <p>This right <a th:href="@{https://www.youtube.com/channel/UCcZykq4I8IcXbP2xQeIoGkQ}">here</a> is my YouTube
+        Channel.</p>
+    <p>From time to time I post videos on this channel. Most of them are for fun; don't take them seriously.</p>
+    <p><strong>So, remember to leave a like, subscribe and a comment saying what my channel is in need for.</strong></p>
+    <p>Wanna have a good laugh? Here's one of my videos to keep you entertained!<img th:src="@{heart.png}" height="20"
+                                                                                     width="20"></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qSPMHIff1is" frameborder="0"
+            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</article>

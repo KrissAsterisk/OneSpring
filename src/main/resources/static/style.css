@@ -1,0 +1,64 @@
+:root {
+  --border-color: #808080;
+  --border-width: 2px;
+
+  --space-1: 8px;
+  --space-2: 20px;
+
+  --nav-width: 200px;
+
+  --font-size-h2: 20px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.4;
+
+  /* Layout: header full width on top, nav + article side-by-side */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Header spans the full width */
+body > header {
+  flex-basis: 100%;
+  border-bottom: var(--border-width) solid var(--border-color);
+  padding: var(--space-2);
+}
+
+/* Left navigation column */
+body > nav {
+  flex: 0 0 var(--nav-width);
+  width: var(--nav-width);
+  border-right: var(--border-width) solid var(--border-color);
+  padding: var(--space-1);
+  min-height: calc(100vh - 80px);
+}
+
+/* Reset list styling and spacing */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main content area */
+body > article {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: var(--space-2);
+  min-height: calc(100vh - 80px);
+}
+
+/* Header title */
+h2 {
+  margin: 0;
+  font-size: var(--font-size-h2);
+}
