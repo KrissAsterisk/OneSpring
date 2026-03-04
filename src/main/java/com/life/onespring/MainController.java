@@ -2,8 +2,8 @@ package com.life.onespring;
 
 
 import com.life.onespring.UserTypes.Admin;
+import com.life.onespring.UserTypes.Guest;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.ApplicationContext;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -14,10 +14,9 @@ public class MainController {
     private String appName;
 
     @GetMapping("/exit")
-    public String exit(ApplicationContext context){
-        context.getBean(Admin.class).close();
+    public String exit() {
+        System.exit(0);
         return "";
-
     }
 
     @GetMapping("/discord")
@@ -28,6 +27,11 @@ public class MainController {
     @GetMapping("/g_rev")
     public String g_rev() {
         return "g_rev";
+    }
+
+    @GetMapping("/error")
+    public String error() {
+        return "error";
     }
 
     @GetMapping("/gmail")
@@ -43,6 +47,9 @@ public class MainController {
     @GetMapping("/")
     public String homePage(Model model) {
         model.addAttribute("appName", appName);
+        var guest = new Guest().login();
+        model.addAttribute("guest", guest);
+        model.addAttribute("guestID", guest.getID());
 
         return "main";
     }

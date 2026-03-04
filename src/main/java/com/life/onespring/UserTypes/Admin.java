@@ -17,12 +17,8 @@ public class Admin implements Users {
     }
 
     @Override
-    public void getID(){
+    public String getID(){
         System.out.println("Admin ID: " + adminID);
-    }
-
-    public void close(){
-        System.out.println("Admin Exit");
-        System.exit(0);
+        return adminID;
     }
 }

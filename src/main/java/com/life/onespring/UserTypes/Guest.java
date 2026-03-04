@@ -17,7 +17,8 @@ public class Guest implements Users {
     }
 
     @Override
-    public void getID(){
+    public String getID(){
         System.out.println("Guest ID: " + guestID);
+        return guestID;
     }
 }

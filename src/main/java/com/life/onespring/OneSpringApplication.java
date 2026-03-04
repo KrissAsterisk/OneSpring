@@ -17,10 +17,6 @@ public class OneSpringApplication {
         SpringApplicationBuilder builder = new SpringApplicationBuilder(OneSpringApplication.class);
         builder.application().setLazyInitialization(true);
         ApplicationContext context = builder.run(args);
-        context.getBean(Guest.class).login().getID();
-        context.getBean(Admin.class).login().getID();
-
-
     }
 }
 
