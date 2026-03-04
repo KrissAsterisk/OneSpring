@@ -11,12 +11,8 @@
     <h2>YEET</h2>
 </header>
 <nav>
-    <ul>
-        <li><a th:href="@{/rules}">Rules</a></li>
-        <li><a th:href="@{/discord}">Discord Server</a></li>
-        <li><a th:href="@{/ytb}">My Christian Youtube Channel<img th:src="@{/abc.png}" height="20" width="20"/><img th:src="@{/abc.png}" height="20" width="20"></a></li>
-        <li><a th:href="@{/gmail}">My Gmail</a></li>
-        <li><a th:href="@{/g_rev}">Game Review</a></li>
+    <ul th:each="page : ${pages}">
+        <li><a th:href="@{${page}}" th:text="${page}"></a></li>
     </ul>
 </nav>
 <article>
@@ -30,6 +26,6 @@
     <p>To play the game, you need the game itself (call them ROMs), right? Well, <a
             th:href="@{https://www.loveroms.com/download/nintendo-ds/0127-phoenix-wright-ace-attorney-/44861}">HERE</a>, you
         can get the 1st game.</p>
-    <p>Yes, that is right. This game has sequels. And <a th:href="@{/PWl}">here</a>, you can get a list for all of them.
+    <p>Yes, that is right. This game has sequels. And <a th:href="@{/Phoenix Wright ROM Links}">here</a>, you can get a list for all of them.
         Don't worry, I will arrange them chronologically.</P>
 </article>

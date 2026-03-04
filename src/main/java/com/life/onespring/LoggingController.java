@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoggingController {
 
-    Logger logger = LogManager.getLogger(LoggingController.class);
+    Logger logger = LogManager.getLogger(LoggingController.class); // same as @Slf4j
 
     @RequestMapping("/logs")
     public String logs(){

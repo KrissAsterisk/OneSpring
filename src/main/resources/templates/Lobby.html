@@ -1,0 +1,25 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}"/>
+    <meta charset="utf-8"/>
+
+    <title> Welcome ! </title>
+</head>
+<body bgcolor="#BBF939">
+<header>
+    <h2>YEET</h2>
+</header>
+<nav>
+    <ul th:each="page : ${pages}">
+        <li><a th:href="@{${page}}" th:text="${page}"></a> <img th:src="@{/abc.png}" style="width: 20px; height: 20px;"></li>
+    </ul>
+</nav>
+<article>
+    <h3>Konichiwa</h3>
+    <p>Hi! <span th:text="${guestId}">P L A C E H O L D E R</span> Welcome to YEET's website! </p>
+    <p>This is <span th:text="${appName}"> My HTML pigsty</span></p>
+    <p>We are glad to see you here! We hope you enjoy your stay! :D </p>
+</article>
+</body>
+</html>

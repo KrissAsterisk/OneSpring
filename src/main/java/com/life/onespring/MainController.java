@@ -1,11 +1,11 @@
 package com.life.onespring;
 
 
-import com.life.onespring.UserTypes.Admin;
 import com.life.onespring.UserTypes.Guest;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 
 
 @org.springframework.stereotype.Controller
@@ -13,60 +13,75 @@ public class MainController {
     @Value("${spring.application.name}")
     private String appName;
 
+
     @GetMapping("/exit")
     public String exit() {
         System.exit(0);
         return "";
     }
 
-    @GetMapping("/discord")
-    public String discord() {
-        return "discord";
+    @GetMapping("/Discord")
+    public String discord(Model model) {
+        model.addAttribute("pages", getPagesList());
+        return "Discord";
     }
 
-    @GetMapping("/g_rev")
-    public String g_rev() {
-        return "g_rev";
+    @GetMapping("/Game Review")
+    public String g_rev(Model model) {
+        model.addAttribute("pages", getPagesList());
+        return "Game Review";
     }
 
-    @GetMapping("/error")
-    public String error() {
-        return "error";
+    @GetMapping("/My Contact Info")
+    public String gmail(Model model) {
+        model.addAttribute("pages", getPagesList());
+        return "My Contact Info";
     }
 
-    @GetMapping("/gmail")
-    public String gmail() {
-        return "gmail";
+    @GetMapping("/Game Review Part 2")
+    public String grev2(Model model) {
+        model.addAttribute("pages", getPagesList());
+        return "Game Review Part 2";
     }
 
-    @GetMapping("/grev2")
-    public String grev2() {
-        return "grev2";
-    }
-
-    @GetMapping("/")
+    @GetMapping({"/Lobby", "/"})
     public String homePage(Model model) {
         model.addAttribute("appName", appName);
         var guest = new Guest().login();
         model.addAttribute("guest", guest);
-        model.addAttribute("guestID", guest.getID());
+        model.addAttribute("guestId", guest.getID());
+        model.addAttribute("pages", getPagesList());
 
-        return "main";
+        return "Lobby";
     }
 
-    @GetMapping("/PWl")
-    public String PWI() {
-        return "PWl";
+    @ModelAttribute
+    public void switchPage(Model model) {
+        System.out.println("Switched Page");
+        System.out.println(model.getAttribute("guestId"));
+        System.out.println(model.getAttribute("guest"));
     }
 
-    @GetMapping("/rules")
-    public String rules() {
-        return "rules";
+    @GetMapping("/Phoenix Wright ROM Links")
+    public String PWI(Model model) {
+        model.addAttribute("pages", getPagesList());
+        return "Phoenix Wright ROM Links";
+    }
+
+    @GetMapping("/Discord Rules")
+    public String rules(Model model) {
+        model.addAttribute("pages", getPagesList());
+        return "Discord Rules";
 
     }
 
-    @GetMapping("/ytb")
-    public String ytb() {
-        return "ytb";
+    @GetMapping("/My YouTube")
+    public String ytb(Model model) {
+        model.addAttribute("pages", getPagesList());
+        return "My YouTube";
+    }
+
+    private java.util.List<String> getPagesList() {
+        return java.util.Arrays.asList("Lobby", "Discord", "Game Review", "My Contact Info", "Discord Rules", "My YouTube");
     }
 }

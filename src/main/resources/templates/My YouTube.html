@@ -11,12 +11,8 @@
     <h2>YEET</h2>
 </header>
 <nav>
-    <ul>
-        <li><a th:href="@{/}">Lobby</a></li>
-        <li><a th:href="@{/discord}">Discord Server</a></li>
-        <li><a th:href="@{/gmail}">My Gmail</a></li>
-        <li><a th:href="@{/rules}">Rules</a></li>
-        <li><a th:href="@{/g_rev}">Game Review</a></li>
+    <ul th:each="page : ${pages}">
+        <li><a th:href="@{${page}}" th:text="${page}"></a></li>
     </ul>
 </nav>
 <article>

@@ -1,13 +1,17 @@
 package com.life.onespring.UserTypes;
 
 import com.life.onespring.Users;
+import org.springframework.beans.factory.annotation.Value;
+
 
 public class Guest implements Users {
 
-    private final String guestID;
+    private final String id;
+
+
 
     public Guest(){
-        guestID = "Guest";
+        id = "Guest";
     }
 
     @Override
@@ -18,7 +22,7 @@ public class Guest implements Users {
 
     @Override
     public String getID(){
-        System.out.println("Guest ID: " + guestID);
-        return guestID;
+        System.out.println("Guest ID: " + id);
+        return id;
     }
 }

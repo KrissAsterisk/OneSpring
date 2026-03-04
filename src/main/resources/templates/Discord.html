@@ -1,0 +1,25 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}"/>
+    <meta charset="ANSI"/>
+
+
+    <title> Welcome ! </title>
+</head>
+<body bgcolor="#BBF939">
+<header>
+    <h2>YEET</h2>
+</header>
+<nav>
+    <ul th:each="page : ${pages}">
+        <li><a th:href="@{${page}}" th:text="${page}"></a></li>
+    </ul>
+</nav>
+<article>
+    <h3>Join our server now!</h3>
+    <h4><a href="https://discord.gg/GuhDC6p">https://discord.gg/GuhDC6p</a></h4>
+    <p>Have fun meeting new people and chill with constantly active admins!</p>
+</article>
+</body>
+</html>

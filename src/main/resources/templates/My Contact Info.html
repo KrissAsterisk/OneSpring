@@ -11,12 +11,8 @@
     <h2>YEET</h2>
 </header>
 <nav>
-    <ul>
-        <li><a th:href="@{/}">Lobby</a></li>
-        <li><a th:href="@{/rules}">Rules</a></li>
-        <li><a th:href="@{/discord}">Discord Server</a></li>
-        <li><a th:href="@{/ytb}">My Christian YouTube Channel<img th:src="@{/abc.png}" height="20" width="20"/><img th:src="@{/abc.png}" height="20" width="20"/></a></li>
-        <li><a th:href="@{/g_rev}">Game Review</a></li>
+    <ul th:each="page : ${pages}">
+        <li><a th:href="@{${page}}" th:text="${page}"></a></li>
     </ul>
 </nav>
 <article>
