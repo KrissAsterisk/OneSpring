@@ -2,22 +2,38 @@ package com.life.onespring;
 
 
 import com.life.onespring.UserTypes.Guest;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import jakarta.servlet.http.HttpServletRequest;
+
+import static com.life.onespring.HelperClass.getPagesList;
 
 
-@org.springframework.stereotype.Controller
+@Controller
 public class MainController {
     @Value("${spring.application.name}")
     private String appName;
+    private final Guest guest;
+
+    public MainController(Guest guest) { // injection
+        this.guest = guest.login();
+    }
 
 
     @GetMapping("/exit")
     public String exit() {
         System.exit(0);
         return "";
+    }
+
+    @GetMapping("/error")
+    public String error() {
+        return "redirect:/Lobby";
     }
 
     @GetMapping("/Discord")
@@ -46,20 +62,18 @@ public class MainController {
 
     @GetMapping({"/Lobby", "/"})
     public String homePage(Model model) {
-        model.addAttribute("appName", appName);
-        var guest = new Guest().login();
-        model.addAttribute("guest", guest);
-        model.addAttribute("guestId", guest.getID());
-        model.addAttribute("pages", getPagesList());
-
         return "Lobby";
     }
 
     @ModelAttribute
-    public void switchPage(Model model) {
-        System.out.println("Switched Page");
-        System.out.println(model.getAttribute("guestId"));
-        System.out.println(model.getAttribute("guest"));
+    public void switchPage(Model model, HttpServletRequest request) {
+        model.addAttribute("appName", appName);
+        model.addAttribute("pages", getPagesList());
+
+        model.addAttribute("guest", guest);
+        model.addAttribute("guestId", guest.getId());
+        System.out.printf(guest.getId() +" ");
+        System.out.println("Switched Page: " + request.getMethod() + " " + request.getRequestURI());
     }
 
     @GetMapping("/Phoenix Wright ROM Links")
@@ -79,9 +93,5 @@ public class MainController {
     public String ytb(Model model) {
         model.addAttribute("pages", getPagesList());
         return "My YouTube";
-    }
-
-    private java.util.List<String> getPagesList() {
-        return java.util.Arrays.asList("Lobby", "Discord", "Game Review", "My Contact Info", "Discord Rules", "My YouTube");
     }
 }

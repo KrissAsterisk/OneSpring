@@ -1,16 +1,16 @@
 package com.life.onespring.tacos.web;
 
 
+import com.life.onespring.LoggingController;
 import com.life.onespring.tacos.Ingredient;
 import com.life.onespring.tacos.Taco;
 import com.life.onespring.tacos.TacoOrder;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 
 @Slf4j //lombok - logger
 @Controller // mark for component scanning - created as a bean in the Spring application context
-@RequestMapping("/design") // at class level -> this controller handles paths starting with /design | same as @GetMapping("/design") on all
+@RequestMapping("/Design Your Taco") // at class level -> this controller handles paths starting with /design | same as @GetMapping("/design") on all
 @SessionAttributes("tacoOrder")// TacoOrder is put into the model later on in this class, so maintain it in the session
 public class DesignTacoController {
 
@@ -62,9 +62,17 @@ public class DesignTacoController {
         return new Taco();
     }
 
+    @PostMapping
+    public String processTaco(Taco taco, @ModelAttribute TacoOrder tacoOrder) {
+        tacoOrder.addTaco(taco);
+        log.info("Processing taco: {}", taco);
+        return "redirect:/Lobby";
+    }
+
     @GetMapping // call showDesignForm when an HTTP Get request is made to /design
-    public String showDesignForm() {
-        return "design";
+    public String showDesignForm(Model model) {
+        model.addAttribute("pages", com.life.onespring.HelperClass.getPagesList());
+        return "/TacoFactory/Design Your Taco";
     }
 
     private Iterable<Ingredient> filterByType(List<Ingredient> ingredients, Ingredient.Type type) {

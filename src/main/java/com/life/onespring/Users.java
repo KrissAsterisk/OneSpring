@@ -1,7 +1,9 @@
 package com.life.onespring;
 
-public interface Users {
+import jakarta.servlet.http.HttpSession;
+
+public interface Users extends HttpSession {
 
     Users login();
-    Object getID();
+    String getId();
 }

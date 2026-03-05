@@ -3,6 +3,11 @@ package com.life.onespring;
 import com.life.onespring.UserTypes.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.context.WebApplicationContext;
 
 /**
  * This is a configuration class that will provide beans to the Spring application context.
@@ -14,12 +19,13 @@ import org.springframework.context.annotation.Configuration;
 public class ObjectConfig {
 
     @Bean
+    @Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
     public Guest guest(){
         return new Guest();
     }
 
     @Bean
-    public Admin users(){
+    public Admin admin(){
         return new Admin();
     }
 
