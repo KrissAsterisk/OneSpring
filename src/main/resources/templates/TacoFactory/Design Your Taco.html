@@ -52,9 +52,9 @@
                 </div>
             </div>
 
-            <div class="ingredient-group" id="veggies">
+            <div class="ingredient-group" id="vegetables">
                 <h3>Determine your veggies:</h3>
-                <div th:each="ingredient : ${veggies}">
+                <div th:each="ingredient : ${vegetable}">
                     <label>
                         <input th:field="*{ingredients}" type="checkbox"
                                th:value="${ingredient.id}"/>

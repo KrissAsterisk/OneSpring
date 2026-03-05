@@ -12,7 +12,12 @@
 </header>
 <nav>
     <ul th:each="page : ${pages}">
-        <li><a th:href="@{${page}}" th:text="${page}"></a> <img th:src="@{/images/abc.png}" style="width: 20px; height: 20px;"></li>
+        <li><a th:href="@{${page}}">
+            <span th:unless="${page == 'My YouTube'}" th:text="${page}"></span>
+<!--            <span th:if="${page != 'My YouTube'}"> <span th:text="${page}"></span> </span>-->
+            <span th:if="${page == 'My YouTube'}"> My Christian <img th:src="@{/images/abc.png}" style="width: 20px; height: 20px;"> YouTube <img th:src="@{/images/abc.png}" style="width: 20px; height: 20px;"> Channel <img th:src="@{/images/abc.png}" style="width: 20px; height: 20px;"> </span>
+        </a>
+        </li>
     </ul>
 </nav>
 <article>

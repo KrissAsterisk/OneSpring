@@ -14,11 +14,6 @@ public class MainController {
         return "";
     }
 
-    @GetMapping("/error")
-    public String error() {
-        return "redirect:/Lobby";
-    }
-
     @GetMapping("/Discord")
     public String discord(Model model) {
         return "Discord";

@@ -5,11 +5,13 @@ import com.life.onespring.LoggingController;
 import com.life.onespring.tacos.Ingredient;
 import com.life.onespring.tacos.Taco;
 import com.life.onespring.tacos.TacoOrder;
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
@@ -22,10 +24,10 @@ import java.util.stream.Collectors;
  */
 
 
-
 @Slf4j //lombok - logger
 @Controller // mark for component scanning - created as a bean in the Spring application context
-@RequestMapping("/Design Your Taco") // at class level -> this controller handles paths starting with /design | same as @GetMapping("/design") on all
+@RequestMapping("/Design Your Taco")
+// at class level -> this controller handles paths starting with /design | same as @GetMapping("/design") on all
 @SessionAttributes("tacoOrder")// TacoOrder is put into the model later on in this class, so maintain it in the session
 public class DesignTacoController {
 
@@ -53,17 +55,22 @@ public class DesignTacoController {
             // list of ingredient types added as an attribute to the model object that is passed to the view (showDesignForm)
         }
     }
+
     @ModelAttribute(name = "tacoOrder") // place a new tacoOrder object in the model
     public TacoOrder tacoOrder() {
         return new TacoOrder();
     }
+
     @ModelAttribute(name = "taco") // place a new taco object in the model
     public Taco taco() {
         return new Taco();
     }
 
     @PostMapping
-    public String processTaco(Taco taco, @ModelAttribute TacoOrder tacoOrder) {
+    public String processTaco(@Valid Taco taco, Errors errors, @ModelAttribute TacoOrder tacoOrder) {
+        if(errors.hasErrors()) {
+            return "TacoFactory/Design Your Taco";
+        }
         tacoOrder.addTaco(taco);
         log.info("Processing taco: {}", taco);
         return "redirect:orders/current";
@@ -71,7 +78,6 @@ public class DesignTacoController {
 
     @GetMapping // call showDesignForm when an HTTP Get request is made to /design
     public String showDesignForm(Model model) {
-        model.addAttribute("pages", com.life.onespring.HelperClass.getPagesList());
         return "/TacoFactory/Design Your Taco";
     }
 
