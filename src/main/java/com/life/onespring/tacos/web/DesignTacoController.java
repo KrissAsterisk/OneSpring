@@ -66,7 +66,7 @@ public class DesignTacoController {
     public String processTaco(Taco taco, @ModelAttribute TacoOrder tacoOrder) {
         tacoOrder.addTaco(taco);
         log.info("Processing taco: {}", taco);
-        return "redirect:/Lobby";
+        return "redirect:orders/current";
     }
 
     @GetMapping // call showDesignForm when an HTTP Get request is made to /design

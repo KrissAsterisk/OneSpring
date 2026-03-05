@@ -7,7 +7,7 @@ import org.springframework.core.convert.converter.Converter;
 import java.util.HashMap;
 import java.util.Map;
 
-@Component
+@Component // discoverable as a bean in the application context
 public class IngredientByIdConverter implements Converter<String, Ingredient>{
     private Map<String, Ingredient> ingredientMap = new HashMap<>();
 
