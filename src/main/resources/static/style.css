@@ -57,6 +57,12 @@ body > article {
   min-height: calc(100vh - 80px);
 }
 
+/* When there is no nav, center the article */
+body:not(:has(> nav)) > article {
+  text-align: center;
+  margin: 0 auto;
+}
+
 /* Header title */
 h2 {
   margin: 0;

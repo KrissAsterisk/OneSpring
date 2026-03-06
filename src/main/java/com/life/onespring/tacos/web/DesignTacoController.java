@@ -3,11 +3,13 @@ package com.life.onespring.tacos.web;
 
 import com.life.onespring.LoggingController;
 import com.life.onespring.tacos.Ingredient;
+import com.life.onespring.tacos.JDBC.IngredientRepo;
 import com.life.onespring.tacos.Taco;
 import com.life.onespring.tacos.TacoOrder;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,6 +19,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import static java.util.Arrays.binarySearch;
+import static java.util.Arrays.stream;
 
 
 /**
@@ -31,24 +37,18 @@ import java.util.stream.Collectors;
 @SessionAttributes("tacoOrder")// TacoOrder is put into the model later on in this class, so maintain it in the session
 public class DesignTacoController {
 
+    private final IngredientRepo repo;
+
+    @Autowired
+    public DesignTacoController(IngredientRepo repo) {
+        this.repo = repo;
+
+    }
+
     @ModelAttribute // method invoked when a request is made to /design
     public void addIngredientsToModel(Model model) {
-        List<Ingredient> ingredients = Arrays.asList(
-                new Ingredient("FLTO", "Flour Tortilla", Ingredient.Type.WRAP),
-                new Ingredient("COTO", "Corn Tortilla", Ingredient.Type.WRAP),
-                new Ingredient("GRBF", "Ground Beef", Ingredient.Type.PROTEIN),
-                new Ingredient("CARN", "Carnitas", Ingredient.Type.PROTEIN),
-                new Ingredient("TMTO", "Diced Tomatoes", Ingredient.Type.VEGETABLE),
-                new Ingredient("LETC", "Lettuce", Ingredient.Type.VEGETABLE),
-                new Ingredient("CHED", "Cheddar", Ingredient.Type.CHEESE),
-                new Ingredient("JACK", "Monterrey Jack", Ingredient.Type.CHEESE),
-                new Ingredient("SLSA", "Salsa", Ingredient.Type.SAUCE),
-                new Ingredient("SRCR", "Sour Cream", Ingredient.Type.SAUCE),
-                new Ingredient("MUSH", "Mushrooms", Ingredient.Type.VEGETABLE),
-                new Ingredient("PEPP", "Pepperoni", Ingredient.Type.PROTEIN),
-                new Ingredient("BBQ", "Barbeque", Ingredient.Type.SAUCE)
+        List<Ingredient> ingredients = repo.findAll();
 
-        );
 
         for (var type : Ingredient.Type.values()) {
             model.addAttribute(type.toString().toLowerCase(), filterByType(ingredients, type));
@@ -81,9 +81,9 @@ public class DesignTacoController {
         return "/TacoFactory/Design Your Taco";
     }
 
-    private Iterable<Ingredient> filterByType(List<Ingredient> ingredients, Ingredient.Type type) {
+    private List<Ingredient> filterByType(List<Ingredient> ingredients, Ingredient.Type type) {
         return ingredients.stream()
-                .filter(x -> x.getType().equals(type))
+                .filter( x-> x.getType().equals(type))
                 .collect(Collectors.toList());
     }
 

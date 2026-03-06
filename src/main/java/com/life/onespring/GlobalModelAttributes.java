@@ -1,6 +1,7 @@
 package com.life.onespring;
 
 import com.life.onespring.UserTypes.Guest;
+import jakarta.servlet.DispatcherType;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.ui.Model;
@@ -19,6 +20,7 @@ public class GlobalModelAttributes {
 
     public GlobalModelAttributes(Guest guest) {
         this.guest = guest.login(); // if Guest is session-scoped, this will resolve per-session
+        System.out.println("Guest ID: " + guest.getCreationTime());
     }
 
     @ModelAttribute
@@ -27,6 +29,7 @@ public class GlobalModelAttributes {
         model.addAttribute("pages", getPagesList());
         model.addAttribute("guest", guest);
         model.addAttribute("guestId", guest.getId());
+        model.addAttribute("guestCreationTime", guest.getCreationTime());
 
         // Prefer a logger over System.out in real apps
         System.out.printf(guest.getId() + " ");

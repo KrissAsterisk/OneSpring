@@ -1,0 +1,13 @@
+server:
+  port: 27015
+spring:
+  application:
+    name: OneSpring
+  thymeleaf:
+    cache: false
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+  datasource:
+    generate-unique-name: false
+    datasource.name: tacocloud

@@ -3,33 +3,30 @@ package com.life.onespring.UserTypes;
 import com.life.onespring.Users;
 import jakarta.servlet.ServletContext;
 import lombok.Data;
-
 import java.util.Enumeration;
-
 @Data
 public class Guest implements Users {
 
     private String id;
+    private long creationTime;
+    private Guest obj;
 
     public Guest(){
         id = "defaultGuestID";
+        creationTime = System.currentTimeMillis();
+        obj = this;
     }
 
     @Override
     public Guest login(){
-        id = "guestID";
-    System.out.println("Guest Logged In");
-    return this;
+        System.out.println("Guest Logged In");
+        obj.id = creationTime + "";
+        return this;
     }
 
     @Override
     public String getId(){
         return id;
-    }
-
-    @Override
-    public long getCreationTime() {
-        return 0;
     }
 
     @Override
@@ -43,7 +40,7 @@ public class Guest implements Users {
     }
 
     @Override
-    public void setMaxInactiveInterval(int i) {
+    public void setMaxInactiveInterval(int interval) {
 
     }
 
@@ -53,7 +50,7 @@ public class Guest implements Users {
     }
 
     @Override
-    public Object getAttribute(String s) {
+    public Object getAttribute(String name) {
         return null;
     }
 
@@ -63,12 +60,12 @@ public class Guest implements Users {
     }
 
     @Override
-    public void setAttribute(String s, Object o) {
+    public void setAttribute(String name, Object value) {
 
     }
 
     @Override
-    public void removeAttribute(String s) {
+    public void removeAttribute(String name) {
 
     }
 
@@ -80,5 +77,10 @@ public class Guest implements Users {
     @Override
     public boolean isNew() {
         return false;
+    }
+
+    @Override
+    public long getCreationTime(){
+        return creationTime;
     }
 }

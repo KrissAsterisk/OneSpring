@@ -8,11 +8,19 @@ import jakarta.validation.constraints.Pattern;
 import lombok.Data;
 import org.hibernate.validator.constraints.CreditCardNumber;
 
+import java.io.Serial;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Data
-public class TacoOrder {
+public class TacoOrder implements java.io.Serializable{
+
+    @Serial
+    private static final long serialVersionUID = 1L;
+    private long id;
+    private Date placedAt;
+
     @NotBlank(message = "Delivery Name is required")
     private String deliveryName;
     @NotBlank(message = "Delivery Street is required")
