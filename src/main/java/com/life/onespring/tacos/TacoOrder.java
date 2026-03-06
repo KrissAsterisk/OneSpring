@@ -15,7 +15,9 @@ import java.util.List;
 
 @Data
 public class TacoOrder implements java.io.Serializable{
-
+    // represents the ENTIRE order, i.e., a collection of tacos ordered by a user
+    // order is being stored in the HTTP session using @SessionAttributes("tacoOrder"), that's why it implements Serializable
+    // the session keeps that TacoOrder alive across requests
     @Serial
     private static final long serialVersionUID = 1L;
     private long id;
@@ -41,6 +43,6 @@ public class TacoOrder implements java.io.Serializable{
     private List<Taco> tacos = new ArrayList<>();
 
     public void addTaco(Taco taco){
-        tacos.add(taco);
+        tacos.add(taco); // convenience method to add a taco to the order incrementally
     }
 }

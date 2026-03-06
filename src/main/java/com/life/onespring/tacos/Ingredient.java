@@ -12,7 +12,7 @@ public class Ingredient {
 
     public enum Type {
         FRUIT, VEGGIES, MEAT, DAIRY, GRAIN, OIL, SWEETENER, SAUCE, SPICE, SEED,
-        FLOUR, SUGAR, HONEY, CREAM, CHOCOLATE, SALT, PAPER, PASTE,
+        FLOUR,
         CHEESE, PROTEIN, WRAP,
         OTHER;
     }

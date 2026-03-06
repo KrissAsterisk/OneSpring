@@ -6,6 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.core.convert.converter.Converter;
 
+// this is a String type Converter
+// it converts a string from the web form into an actual ingredient object
+// its needed since Taco object expects an ingredient object, but HTML forms usually submit plain strings
+// so we need this converter to convert the string into an ingredient object from the repository
+// turns raw request values into real domain objects
 @Component // discoverable as a bean in the application context
 public class IngredientByIdConverter implements Converter<String, Ingredient>{
    private final IngredientRepo repo;

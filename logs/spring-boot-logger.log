@@ -4308,3 +4308,672 @@ This generated password is for development use only. Your security configuration
 2026-03-06 12:58:39,572 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
 2026-03-06 12:58:39,572 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2026-03-06 12:58:39,572 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 13:46:41,351 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 14324 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 13:46:41,354 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 13:46:41,396 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 13:46:41,397 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 13:46:41,500 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 13:46:42,431 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 13:46:42,448 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 13:46:42,450 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 13:46:42,451 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 13:46:42,487 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 1089 ms
+2026-03-06 13:46:42,552 WARN o.a.j.l.DirectJDKLog [restartedMain] Cannot deserialize session attribute [tacoOrder] for session [30B05B1C87F21D799C69AFC2BB0D8026]
+2026-03-06 13:46:42,730 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 13:46:42,750 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 13:46:42,793 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 13:46:42,819 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 13:46:42,820 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 13:46:42,940 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-03-06 13:46:42,942 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 13:46:43,250 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 2.333 seconds (process running for 2.7)
+2026-03-06 13:46:43,353 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 533 ms
+2026-03-06 13:46:43,431 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: c0d56f95-fd54-4d91-8c75-12d44f9ff5d4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 13:46:43,436 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 13:47:32,472 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 13:47:32,477 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 13:47:32,479 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 13:47:32,481 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 13:47:34,332 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 11160 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 13:47:34,334 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 13:47:34,373 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 13:47:34,373 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 13:47:34,484 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 13:47:35,262 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 13:47:35,270 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 13:47:35,272 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 13:47:35,272 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 13:47:35,304 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 930 ms
+2026-03-06 13:47:35,477 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 13:47:35,508 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 13:47:35,548 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 13:47:35,627 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 13:47:35,627 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 13:47:35,663 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-03-06 13:47:35,664 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 13:47:35,933 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 2.019 seconds (process running for 2.428)
+2026-03-06 13:47:36,019 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 392 ms
+2026-03-06 13:47:36,066 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: b6fa0110-4a30-441f-9549-332c354cc97c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 13:47:36,071 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 13:48:07,003 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 13:48:07,008 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 13:48:07,010 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 13:48:07,012 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 14:13:30,393 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 15464 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:13:30,395 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:13:30,433 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:13:30,434 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:13:30,522 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:13:31,366 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:13:31,379 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:13:31,381 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:13:31,381 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:13:31,417 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 983 ms
+2026-03-06 14:13:31,583 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:13:31,617 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:13:31,665 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:13:31,808 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-03-06 14:13:31,812 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:13:32,168 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 2.165 seconds (process running for 2.532)
+2026-03-06 14:13:59,358 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:13:59,359 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:13:59,425 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 66 ms
+2026-03-06 14:13:59,464 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: e4f3b8b0-0e9c-4986-94bd-64b726641910
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:13:59,470 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:15:38,332 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:15:38,337 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:15:38,339 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:15:38,340 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 14:15:39,982 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 4668 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:15:39,985 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:15:40,024 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:15:40,024 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:15:40,112 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:15:40,955 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:15:40,963 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:15:40,964 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:15:40,964 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:15:40,997 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 972 ms
+2026-03-06 14:15:41,139 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:15:41,160 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:15:41,220 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:15:41,339 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-03-06 14:15:41,340 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:15:41,562 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 1.986 seconds (process running for 2.356)
+2026-03-06 14:15:53,198 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:15:53,203 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:15:53,205 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:15:53,207 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 14:15:54,784 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 15028 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:15:54,786 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:15:54,821 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:15:54,822 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:15:54,917 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:15:55,649 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:15:55,657 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:15:55,658 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:15:55,659 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:15:55,691 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 869 ms
+2026-03-06 14:15:55,840 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:15:55,869 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:15:55,919 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:15:56,056 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-03-06 14:15:56,057 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:15:56,309 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 1.929 seconds (process running for 2.288)
+2026-03-06 14:15:57,845 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:15:57,846 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:15:57,901 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 55 ms
+2026-03-06 14:15:57,934 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: aaf09f73-246b-475b-92fa-2fa4830f4aad
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:15:57,938 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:23:58,003 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:23:58,009 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:23:58,011 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:23:58,012 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 14:24:01,262 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 15020 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:24:01,264 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:24:01,299 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:24:01,300 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:24:01,389 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:24:02,267 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:24:02,275 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:24:02,277 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:24:02,277 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:24:02,311 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 1011 ms
+2026-03-06 14:24:02,483 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:24:02,505 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:24:02,566 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:24:02,681 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:24:02,683 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:24:02,898 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 2.105 seconds (process running for 2.465)
+2026-03-06 14:24:04,146 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:24:04,146 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:24:04,213 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 67 ms
+2026-03-06 14:24:04,250 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: 9594c6df-138d-43b9-80dc-b8ba5219605b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:24:04,254 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:24:17,619 INFO c.l.o.t.w.DesignTacoController [http-nio-27015-exec-7] Processing taco: Taco(id=0, createdAt=Fri Mar 06 14:24:17 EET 2026, name=ASDGH, ingredients=[IngredientRef(ingredient=LETC), IngredientRef(ingredient=SRCR)])
+2026-03-06 14:25:43,337 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:25:43,342 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:25:43,346 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:25:43,348 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 14:25:45,971 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 11460 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:25:45,973 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:25:46,007 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:25:46,007 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:25:46,094 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:25:46,832 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:25:46,840 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:25:46,841 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:25:46,841 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:25:46,873 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 865 ms
+2026-03-06 14:25:46,921 WARN o.a.j.l.DirectJDKLog [restartedMain] Cannot deserialize session attribute [tacoOrder] for session [CAEF49540E6DEC40F1244556FC657DD2]
+2026-03-06 14:25:47,018 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:25:47,038 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:25:47,085 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:25:47,200 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:25:47,201 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:25:47,436 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 1.86 seconds (process running for 2.211)
+2026-03-06 14:25:50,681 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:25:50,681 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:25:50,740 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 59 ms
+2026-03-06 14:25:50,772 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: 5605de20-5621-4f03-82e5-8a62d8a04b9e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:25:50,776 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:26:08,287 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:26:08,292 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:26:08,294 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:26:08,295 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 14:26:10,816 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 7180 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:26:10,818 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:26:10,853 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:26:10,853 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:26:10,946 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:26:11,775 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:26:11,785 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:26:11,787 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:26:11,787 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:26:11,839 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 984 ms
+2026-03-06 14:26:11,999 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:26:12,034 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:26:12,081 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:26:12,232 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:26:12,234 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:26:12,510 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 2.093 seconds (process running for 2.492)
+2026-03-06 14:26:12,647 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:26:12,648 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:26:12,730 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 81 ms
+2026-03-06 14:26:12,787 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: 1cba37c4-2476-43dc-be0d-9ff0a5e80989
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:26:12,794 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:26:41,625 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:26:41,630 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:26:41,632 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:26:41,633 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 14:26:44,222 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 12312 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:26:44,224 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:26:44,260 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:26:44,260 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:26:44,342 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:26:45,154 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:26:45,162 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:26:45,164 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:26:45,164 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:26:45,198 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 938 ms
+2026-03-06 14:26:45,358 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:26:45,388 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:26:45,433 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:26:45,546 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:26:45,547 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:26:45,589 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:26:45,589 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:26:45,830 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 2.016 seconds (process running for 2.383)
+2026-03-06 14:26:45,895 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 306 ms
+2026-03-06 14:26:45,939 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: 197684da-4a0b-4718-8491-9c4b45bdf8fd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:26:45,946 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:29:16,516 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:29:16,521 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:29:16,523 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:29:16,525 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 14:29:19,445 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 13720 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:29:19,448 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:29:19,494 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:29:19,495 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:29:19,591 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:29:20,339 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:29:20,347 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:29:20,349 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:29:20,349 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:29:20,378 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 882 ms
+2026-03-06 14:29:20,521 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:29:20,540 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:29:20,601 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:29:20,617 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:29:20,618 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:29:20,727 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:29:20,728 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:29:20,981 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 1.948 seconds (process running for 2.328)
+2026-03-06 14:29:21,045 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 427 ms
+2026-03-06 14:29:21,084 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: 027c081a-02c8-4d2a-854c-9692a818fb96
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:29:21,089 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:31:40,799 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:31:40,804 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:31:40,806 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:31:40,807 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 14:31:42,058 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 13324 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:31:42,060 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:31:42,100 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:31:42,100 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:31:42,184 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:31:42,928 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:31:42,936 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:31:42,937 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:31:42,938 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:31:42,969 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 869 ms
+2026-03-06 14:31:43,136 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:31:43,153 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:31:43,196 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:31:43,302 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:31:43,303 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:31:43,510 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 1.867 seconds (process running for 2.214)
+2026-03-06 14:31:45,045 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:31:45,045 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:31:45,099 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 54 ms
+2026-03-06 14:31:45,126 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: dcda67a1-02b0-453a-90f9-111519b9f626
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:31:45,130 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:31:50,257 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:31:50,262 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:31:50,264 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:31:50,265 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 14:31:54,371 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 15612 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:31:54,373 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:31:54,409 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:31:54,409 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:31:54,518 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:31:55,247 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:31:55,255 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:31:55,257 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:31:55,257 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:31:55,288 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 878 ms
+2026-03-06 14:31:55,426 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:31:55,445 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:31:55,495 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:31:55,606 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:31:55,608 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:31:55,801 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 1.829 seconds (process running for 2.199)
+2026-03-06 14:32:24,356 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:32:24,356 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:32:24,412 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 56 ms
+2026-03-06 14:32:24,444 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: 7fa17f7a-860c-49ce-8b50-5b9ea150be9d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:32:24,448 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:34:24,602 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-03-06 14:34:24,606 INFO o.s.b.t.GracefulShutdown [Thread-1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:34:24,607 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:34:24,611 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:34:24,612 INFO o.a.j.l.DirectJDKLog [Thread-1] Stopping ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:34:24,614 INFO c.z.h.HikariDataSource [Thread-1] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:34:24,616 INFO c.z.h.HikariDataSource [Thread-1] HikariPool-1 - Shutdown completed.
+2026-03-06 14:34:24,698 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 15612 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:34:24,698 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:34:24,920 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:34:24,921 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:34:24,922 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:34:24,923 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:34:24,945 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 245 ms
+2026-03-06 14:34:25,004 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:34:25,008 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:34:25,022 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2026-03-06 14:34:25,025 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:34:25,025 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2026-03-06 14:34:25,078 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 0.405 seconds (process running for 151.477)
+2026-03-06 14:34:25,082 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2026-03-06 14:34:26,413 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-03-06 14:34:26,414 INFO o.s.b.t.GracefulShutdown [Thread-5] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:34:26,414 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:34:26,418 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:34:26,418 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:34:26,419 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2026-03-06 14:34:26,420 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2026-03-06 14:34:26,478 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 15612 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:34:26,478 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:34:26,610 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:34:26,610 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:34:26,610 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:34:26,610 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:34:26,622 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 141 ms
+2026-03-06 14:34:26,652 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:34:26,655 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:34:26,663 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2026-03-06 14:34:26,665 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:34:26,665 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2026-03-06 14:34:26,703 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 0.242 seconds (process running for 153.101)
+2026-03-06 14:34:26,704 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2026-03-06 14:35:13,470 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:35:13,474 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:35:13,475 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-3 - Shutdown initiated...
+2026-03-06 14:35:13,476 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-3 - Shutdown completed.
+2026-03-06 14:35:15,028 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 15820 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:35:15,029 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:35:15,064 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:35:15,064 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:35:15,164 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:35:15,990 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:35:15,999 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:35:16,001 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:35:16,001 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:35:16,036 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 972 ms
+2026-03-06 14:35:16,203 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:35:16,229 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:35:16,272 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:35:16,382 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:35:16,383 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:35:16,582 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 1.956 seconds (process running for 2.331)
+2026-03-06 14:35:16,786 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:35:16,786 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:35:16,843 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 57 ms
+2026-03-06 14:35:16,872 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: 5978f1ca-354a-4bb9-8cbf-5e3b2400fbb7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:35:16,876 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:36:07,030 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:36:07,035 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:36:07,037 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:36:07,039 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-03-06 14:36:08,662 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 1836 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:36:08,664 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:36:08,697 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:36:08,698 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:36:08,793 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:36:09,518 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:36:09,525 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:36:09,527 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:36:09,527 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:36:09,560 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 862 ms
+2026-03-06 14:36:09,716 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:36:09,735 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:36:09,790 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:36:09,916 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:36:09,917 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:36:09,930 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] Executing SQL script from file [D:\!WK\OneSpring\target\classes\schema.sql]
+2026-03-06 14:36:09,942 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: create table if not exists Taco_Order ( id identity primary key, delivery_Name varchar(50) not null, delivery_Street varchar(50) not null, delivery_City varchar(50) not null, delivery_State varchar(2) not null, delivery_Zip varchar(10) not null, cc_number varchar(16) not null, cc_expiration varchar(5) not null, cc_cvv varchar(3) not null, placed_at timestamp not null )
+2026-03-06 14:36:09,944 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: create table if not exists Taco ( id identity primary key, name varchar(50) not null, taco_order bigint not null, taco_order_key bigint not null, created_at timestamp not null )
+2026-03-06 14:36:09,945 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: create table if not exists Ingredient_Ref ( ingredient varchar(4) not null, taco bigint not null, taco_key bigint not null )
+2026-03-06 14:36:09,947 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: create table if not exists Ingredient ( id varchar(4) primary key, name varchar(25) not null, type varchar(10) not null )
+2026-03-06 14:36:09,961 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: alter table Taco add foreign key (taco_order) references Taco_Order (id)
+2026-03-06 14:36:09,963 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: alter table Ingredient_Ref add foreign key (ingredient) references Ingredient (id)
+2026-03-06 14:36:09,966 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] Executed SQL script from file [D:\!WK\OneSpring\target\classes\schema.sql] in 33 ms.
+2026-03-06 14:36:09,967 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] Executing SQL script from file [D:\!WK\OneSpring\target\classes\data.sql]
+2026-03-06 14:36:09,968 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: delete from Ingredient_Ref
+2026-03-06 14:36:09,969 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: delete from Taco
+2026-03-06 14:36:09,969 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: delete from Taco_Order
+2026-03-06 14:36:09,969 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: delete from Ingredient
+2026-03-06 14:36:09,972 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('FLTO', 'Flour Tortilla', 'WRAP')
+2026-03-06 14:36:09,972 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('COTO', 'Corn Tortilla', 'WRAP')
+2026-03-06 14:36:09,973 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('GRBF', 'Ground Beef', 'PROTEIN')
+2026-03-06 14:36:09,973 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('CARN', 'Carnitas', 'PROTEIN')
+2026-03-06 14:36:09,974 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('TMTO', 'Diced Tomatoes', 'VEGGIES')
+2026-03-06 14:36:09,975 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('LETC', 'Lettuce', 'VEGGIES')
+2026-03-06 14:36:09,975 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('CHED', 'Cheddar', 'CHEESE')
+2026-03-06 14:36:09,976 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('JACK', 'Monterrey Jack', 'CHEESE')
+2026-03-06 14:36:09,977 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('SLSA', 'Salsa', 'SAUCE')
+2026-03-06 14:36:09,977 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('SRCR', 'Sour Cream', 'SAUCE')
+2026-03-06 14:36:09,978 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] Executed SQL script from file [D:\!WK\OneSpring\target\classes\data.sql] in 11 ms.
+2026-03-06 14:36:10,193 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 1.928 seconds (process running for 2.291)
+2026-03-06 14:36:25,755 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:36:25,755 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:36:25,811 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 55 ms
+2026-03-06 14:36:25,841 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: 95edc964-e080-4672-ad86-14ed4076d41e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:36:25,845 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:36:26,114 DEBUG o.s.j.c.JdbcTemplate [http-nio-27015-exec-1] Executing SQL query [SELECT id, name, type FROM Ingredient]
+2026-03-06 14:36:43,830 DEBUG o.s.j.c.JdbcTemplate [http-nio-27015-exec-5] Executing SQL query [SELECT id, name, type FROM Ingredient]
+2026-03-06 14:37:06,550 DEBUG o.s.j.c.JdbcTemplate [http-nio-27015-exec-8] Executing SQL query [SELECT id, name, type FROM Ingredient]
+2026-03-06 14:37:36,866 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-03-06 14:37:36,869 INFO o.s.b.t.GracefulShutdown [Thread-1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:37:36,870 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:37:36,874 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:37:36,875 INFO o.a.j.l.DirectJDKLog [Thread-1] Stopping ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:37:36,877 INFO c.z.h.HikariDataSource [Thread-1] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:37:36,878 INFO c.z.h.HikariDataSource [Thread-1] HikariPool-1 - Shutdown completed.
+2026-03-06 14:37:36,962 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 1836 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:37:36,963 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:37:37,173 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:37:37,174 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:37:37,174 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:37:37,175 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:37:37,189 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 223 ms
+2026-03-06 14:37:37,236 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:37:37,239 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:37:37,250 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2026-03-06 14:37:37,252 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:37:37,253 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2026-03-06 14:37:37,253 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] Executing SQL script from file [D:\!WK\OneSpring\target\classes\schema.sql]
+2026-03-06 14:37:37,254 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: create table if not exists Taco_Order ( id identity primary key, delivery_Name varchar(50) not null, delivery_Street varchar(50) not null, delivery_City varchar(50) not null, delivery_State varchar(2) not null, delivery_Zip varchar(10) not null, cc_number varchar(16) not null, cc_expiration varchar(5) not null, cc_cvv varchar(3) not null, placed_at timestamp not null )
+2026-03-06 14:37:37,255 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: create table if not exists Taco ( id identity primary key, name varchar(50) not null, taco_order bigint not null, taco_order_key bigint not null, created_at timestamp not null )
+2026-03-06 14:37:37,256 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: create table if not exists Ingredient_Ref ( ingredient varchar(4) not null, taco bigint not null, taco_key bigint not null )
+2026-03-06 14:37:37,256 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: create table if not exists Ingredient ( id varchar(4) primary key, name varchar(25) not null, type varchar(10) not null )
+2026-03-06 14:37:37,257 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: alter table Taco add foreign key (taco_order) references Taco_Order (id)
+2026-03-06 14:37:37,258 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: alter table Ingredient_Ref add foreign key (ingredient) references Ingredient (id)
+2026-03-06 14:37:37,258 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] Executed SQL script from file [D:\!WK\OneSpring\target\classes\schema.sql] in 5 ms.
+2026-03-06 14:37:37,259 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] Executing SQL script from file [D:\!WK\OneSpring\target\classes\data.sql]
+2026-03-06 14:37:37,259 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: delete from Ingredient_Ref
+2026-03-06 14:37:37,260 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: delete from Taco
+2026-03-06 14:37:37,260 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: delete from Taco_Order
+2026-03-06 14:37:37,260 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: delete from Ingredient
+2026-03-06 14:37:37,261 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('FLTO', 'Flour Tortilla', 'WRAP')
+2026-03-06 14:37:37,261 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('COTO', 'Corn Tortilla', 'WRAP')
+2026-03-06 14:37:37,262 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('GRBF', 'Ground Beef', 'PROTEIN')
+2026-03-06 14:37:37,262 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('CARN', 'Carnitas', 'PROTEIN')
+2026-03-06 14:37:37,262 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('TMTO', 'Diced Tomatoes', 'VEGGIES')
+2026-03-06 14:37:37,263 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('LETC', 'Lettuce', 'VEGGIES')
+2026-03-06 14:37:37,263 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('CHED', 'Cheddar', 'CHEESE')
+2026-03-06 14:37:37,264 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('JACK', 'Monterrey Jack', 'CHEESE')
+2026-03-06 14:37:37,264 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('SLSA', 'Salsa', 'SAUCE')
+2026-03-06 14:37:37,265 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('SRCR', 'Sour Cream', 'SAUCE')
+2026-03-06 14:37:37,265 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] Executed SQL script from file [D:\!WK\OneSpring\target\classes\data.sql] in 6 ms.
+2026-03-06 14:37:37,304 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 0.368 seconds (process running for 89.402)
+2026-03-06 14:37:37,306 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2026-03-06 14:37:47,237 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:37:47,237 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:37:47,259 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 21 ms
+2026-03-06 14:37:47,283 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: 2d0137ad-4ae0-4926-9195-a7940fefa4cf
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:37:47,284 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:37:47,304 DEBUG o.s.j.c.JdbcTemplate [http-nio-27015-exec-1] Executing SQL query [SELECT id, name, type FROM Ingredient]
+2026-03-06 14:37:49,494 DEBUG o.s.j.c.JdbcTemplate [http-nio-27015-exec-3] Executing SQL query [SELECT id, name, type FROM Ingredient]
+2026-03-06 14:37:59,518 DEBUG o.s.j.c.JdbcTemplate [http-nio-27015-exec-9] Executing SQL query [SELECT id, name, type FROM Ingredient]
+2026-03-06 14:37:59,557 INFO c.l.o.t.w.DesignTacoController [http-nio-27015-exec-9] Processing taco: Taco(id=0, createdAt=Fri Mar 06 14:37:59 EET 2026, name=qssdgf, ingredients=[IngredientRef(ingredient=COTO), IngredientRef(ingredient=CARN)])
+2026-03-06 14:46:18,243 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-5] Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x000x000x000x110x000x000x000x150x000x000x000x070x00d0x00e0x00f0x00a0x00u0x00l0x00t0x000x000x00%0x00j0x00d0x00b0x00c0x00:0x00h0x0020x00:0x00t0x00c0x00p0x00:0x00/0x00/0x00l0x00o0x00c0x00a0x00l0x00h0x00o0x00s0x00t0x00:0x0020x0070x0000x0010x0050x00/0x00d0x00e0x00f0x00a0x00u0x00l0x00t0x000x000x000x000x000x000x000x000xff0xff0xff0xff0x000x000x000x00...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:391)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-03-06 14:47:38,600 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:47:38,604 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:47:38,605 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2026-03-06 14:47:38,606 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2026-03-06 14:47:41,025 INFO o.s.b.StartupInfoLogger [restartedMain] Starting OneSpringApplication using Java 25.0.2 with PID 868 (D:\!WK\OneSpring\target\classes started by User in D:\!WK\OneSpring)
+2026-03-06 14:47:41,028 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-03-06 14:47:41,067 INFO o.s.b.l.LogLevel [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06 14:47:41,068 INFO o.s.b.l.LogLevel [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06 14:47:41,153 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 14:47:41,884 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat initialized with port 27015 (http)
+2026-03-06 14:47:41,892 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:47:41,893 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2026-03-06 14:47:41,894 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-06 14:47:41,927 INFO o.s.b.w.c.s.WebApplicationContextInitializer [restartedMain] Root WebApplicationContext: initialization completed in 859 ms
+2026-03-06 14:47:41,971 WARN o.a.j.l.DirectJDKLog [restartedMain] Cannot deserialize session attribute [tacoOrder] for session [CAEF49540E6DEC40F1244556FC657DD2]
+2026-03-06 14:47:41,972 ERROR o.a.j.l.DirectJDKLog [restartedMain] Exception loading sessions from persistent storage
+java.lang.ClassCastException: class java.io.ObjectStreamClass cannot be cast to class java.lang.String (java.io.ObjectStreamClass and java.lang.String are in module java.base of loader 'bootstrap')
+	at java.base/java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1697)
+	at java.base/java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:606)
+	at java.base/java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:933)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1902)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1785)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2101)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1620)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:487)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:445)
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1187)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:821)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:146)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:149)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:780)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1162)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1158)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:149)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:714)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:864)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:435)
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:131)
+	at org.springframework.boot.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:110)
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:429)
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:167)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:190)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:154)
+	at com.life.onespring.OneSpringApplication.main(OneSpringApplication.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+2026-03-06 14:47:42,076 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-27015"]
+2026-03-06 14:47:42,101 INFO o.s.b.t.TomcatWebServer [restartedMain] Tomcat started on port 27015 (http) with context path '/'
+2026-03-06 14:47:42,167 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-03-06 14:47:42,311 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:onespring user=SA
+2026-03-06 14:47:42,313 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-03-06 14:47:42,329 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] Executing SQL script from file [D:\!WK\OneSpring\target\classes\schema.sql]
+2026-03-06 14:47:42,341 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: create table if not exists Taco_Order ( id identity primary key, delivery_Name varchar(50) not null, delivery_Street varchar(50) not null, delivery_City varchar(50) not null, delivery_State varchar(2) not null, delivery_Zip varchar(10) not null, cc_number varchar(16) not null, cc_expiration varchar(5) not null, cc_cvv varchar(3) not null, placed_at timestamp not null )
+2026-03-06 14:47:42,342 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: create table if not exists Taco ( id identity primary key, name varchar(50) not null, taco_order bigint not null, taco_order_key bigint not null, created_at timestamp not null )
+2026-03-06 14:47:42,343 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: create table if not exists Ingredient_Ref ( ingredient varchar(4) not null, taco bigint not null, taco_key bigint not null )
+2026-03-06 14:47:42,344 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: create table if not exists Ingredient ( id varchar(4) primary key, name varchar(25) not null, type varchar(10) not null )
+2026-03-06 14:47:42,353 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: alter table Taco add foreign key (taco_order) references Taco_Order (id)
+2026-03-06 14:47:42,354 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: alter table Ingredient_Ref add foreign key (ingredient) references Ingredient (id)
+2026-03-06 14:47:42,356 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] Executed SQL script from file [D:\!WK\OneSpring\target\classes\schema.sql] in 25 ms.
+2026-03-06 14:47:42,357 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] Executing SQL script from file [D:\!WK\OneSpring\target\classes\data.sql]
+2026-03-06 14:47:42,358 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: delete from Ingredient_Ref
+2026-03-06 14:47:42,358 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: delete from Taco
+2026-03-06 14:47:42,359 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: delete from Taco_Order
+2026-03-06 14:47:42,359 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 0 returned as update count for SQL: delete from Ingredient
+2026-03-06 14:47:42,360 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('FLTO', 'Flour Tortilla', 'WRAP')
+2026-03-06 14:47:42,361 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('COTO', 'Corn Tortilla', 'WRAP')
+2026-03-06 14:47:42,361 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('GRBF', 'Ground Beef', 'PROTEIN')
+2026-03-06 14:47:42,362 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('CARN', 'Carnitas', 'PROTEIN')
+2026-03-06 14:47:42,363 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('TMTO', 'Diced Tomatoes', 'VEGGIES')
+2026-03-06 14:47:42,364 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('LETC', 'Lettuce', 'VEGGIES')
+2026-03-06 14:47:42,364 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('CHED', 'Cheddar', 'CHEESE')
+2026-03-06 14:47:42,364 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('JACK', 'Monterrey Jack', 'CHEESE')
+2026-03-06 14:47:42,365 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('SLSA', 'Salsa', 'SAUCE')
+2026-03-06 14:47:42,365 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] 1 returned as update count for SQL: insert into Ingredient (id, name, type) values ('SRCR', 'Sour Cream', 'SAUCE')
+2026-03-06 14:47:42,366 DEBUG o.s.j.d.i.ScriptUtils [restartedMain] Executed SQL script from file [D:\!WK\OneSpring\target\classes\data.sql] in 9 ms.
+2026-03-06 14:47:42,569 INFO o.s.b.StartupInfoLogger [restartedMain] Started OneSpringApplication in 1.947 seconds (process running for 2.324)
+2026-03-06 14:48:00,846 INFO o.a.j.l.DirectJDKLog [http-nio-27015-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 14:48:00,846 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Initializing Servlet 'dispatcherServlet'
+2026-03-06 14:48:00,903 INFO o.s.w.s.FrameworkServlet [http-nio-27015-exec-1] Completed initialization in 57 ms
+2026-03-06 14:48:00,934 WARN o.s.b.s.a.UserDetailsServiceAutoConfiguration [http-nio-27015-exec-1] 
+
+Using generated security password: 10e6817e-8fdf-4847-9f57-751d96460c44
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-06 14:48:00,938 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [http-nio-27015-exec-1] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-06 14:48:44,234 DEBUG o.s.j.c.JdbcTemplate [http-nio-27015-exec-5] Executing SQL query [SELECT id, name, type FROM Ingredient]
+2026-03-06 14:48:45,989 DEBUG o.s.j.c.JdbcTemplate [http-nio-27015-exec-1] Executing SQL query [SELECT id, name, type FROM Ingredient]
+2026-03-06 14:48:57,730 DEBUG o.s.j.c.JdbcTemplate [http-nio-27015-exec-4] Executing SQL query [SELECT id, name, type FROM Ingredient]
+2026-03-06 14:48:57,732 INFO c.l.o.t.w.DesignTacoController [http-nio-27015-exec-4] Processing taco: Taco(id=0, createdAt=Fri Mar 06 14:48:57 EET 2026, name=asdfhg, ingredients=[IngredientRef(ingredient=COTO)])
+2026-03-06 14:49:04,267 DEBUG o.s.j.c.JdbcTemplate [http-nio-27015-exec-1] Executing SQL query [SELECT id, name, type FROM Ingredient]
+2026-03-06 14:50:53,409 INFO o.s.b.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06 14:50:53,414 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-06 14:50:53,415 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-03-06 14:50:53,417 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

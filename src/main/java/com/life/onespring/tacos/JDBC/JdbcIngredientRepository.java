@@ -14,6 +14,8 @@ import java.util.Optional;
 
 @Repository
 public class JdbcIngredientRepository implements IngredientRepo {
+    // instead of the controller talking directly to SQL, it calls a repo with findAll()
+
 
     private JdbcTemplate jdbcTemplate;
 

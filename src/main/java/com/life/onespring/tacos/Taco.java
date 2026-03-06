@@ -10,9 +10,9 @@ import java.util.List;
 
 
 @Data
-public class Taco {
+public class Taco { // represents one taco design, done by the user
 
-    private long id;
+    private long id; // database identifier for this taco
 
     private Date createdAt = new Date();
 

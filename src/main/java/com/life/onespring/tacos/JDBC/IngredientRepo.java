@@ -5,6 +5,7 @@ import java.util.Optional;
 import com.life.onespring.tacos.Ingredient;
 
 public interface IngredientRepo {
+    // repo abstraction for ingredients access
 
     List<Ingredient> findAll();
 
